@@ -1,65 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
-<style>
-body{
-font-family: Arial;
-margin:0;
-}
-
-header{
-background:#222;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-section{
-padding:30px;
-text-align:center;
-}
-
-.project{
-border:1px solid #ccc;
-padding:15px;
-margin:10px;
-}
-
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:10px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
 <h1>Pooja Gomase</h1>
-<p>Web Developer | Student</p>
+<p>Electronics Engineering Student</p>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
 
-<section>
+<section id="about">
 <h2>About Me</h2>
-<p>I am learning web development and creating projects for internship.</p>
+<p>I am an engineering student interested in electronics, IoT projects and web development. I enjoy building practical projects and learning new technologies.</p>
 </section>
 
-<section>
+<section id="skills">
+<h2>My Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Arduino</li>
+<li>Python</li>
+</ul>
+</section>
+
+<section id="projects">
 <h2>Projects</h2>
 
-<div class="project">
-<h3>Calculator</h3>
-<p>Simple calculator using HTML, CSS and JavaScript.</p>
+<div>
+<h3>Smart Parking System</h3>
+<p>IoT based project that detects empty parking slots using sensors.</p>
 </div>
 
-<div class="project">
-<h3>Landing Page</h3>
-<p>Simple website landing page design.</p>
+<div>
+<h3>Simple Calculator</h3>
+<p>A basic web calculator created using HTML, CSS and JavaScript.</p>
 </div>
 
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>Email: example@email.com</p>
 </section>
 
 <footer>
