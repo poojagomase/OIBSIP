@@ -7,3 +7,5 @@ Calculator using HTML, CSS and JavaScript
 
 ## Author
 Pooja Gomase
+## Screenshot
+![Calculator](calculator.png)
