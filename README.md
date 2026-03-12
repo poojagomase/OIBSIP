@@ -2,10 +2,18 @@
 
 This repository contains all the tasks completed during my Oasis Infobyte Internship.
 
-## Task 1
-Calculator using HTML, CSS and JavaScript
+## projects
+1. Calculator
+2. Landing Page
+3. Portfolio Website
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
 ## Author
 Pooja Gomase
-## Screenshot
+
+## Calculator Screenshot
 ![Calculator](calculator.png)
